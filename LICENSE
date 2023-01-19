@@ -1,0 +1,95 @@
+LIVING OPEN SOURCE SOFTWARE LICENSE FOR OpenRPG, OpenVTT, and OpenDND
+
+1. Definitions.
+   a. As used in this license, "OpenRPG", "OpenVTT", or "OpenDND" 
+      refer to the software, website, or related materials available 
+      at openrpg.app, openvtt.app or opendnd.app respectively or any repository under the 
+      Github organization "OpenRPGApps".
+   b. "We", "Us" and "Our" refer to the owners and creators of OpenRPG, OpenVTT, or OpenDND.
+      "You" refer to any individual or Legal Entity exercising permissions granted by this License.
+   c. "Costumer", "Users" and "Players" refer to any individual or Legal Entity that consumes
+      Our work, or any derivative or modified work as binary form, software or services.
+   d. Commercial use includes any use of OpenRPG, OpenVTT, or OpenDND or any derivative or modified
+      work by a company or individual that results in direct or indirect financial gain.
+   e. Examples of commercial use include, but are not limited to, using the software to provide a paid 
+      service, incorporating the software into a commercial product, or using the software to generate 
+      revenue through advertising or sponsorships.
+   f. To obtain written permission for commercial use, companies or individuals must contact us at the 
+      address listed on the OpenRPG, OpenVTT, or OpenDND websites and agree to the terms of a separate 
+      commercial license or other agreement.
+   g. We reserve the right to deny or revoke permission for commercial use at any time and for 
+      any reason, including without limitation if we determine that the proposed use is inconsistent 
+      with our goals for the project or would harm the interests of our community or users.
+   h. Violations of this commercial use restriction may result in legal action to protect our 
+      intellectual property rights and may also result in revocation of permission to use or 
+      contribute to OpenRPG, OpenVTT, or OpenDND in the future.
+
+2. Permission Grant.
+   Subject to the terms and conditions of this license, you are hereby granted a non-exclusive, 
+   non-transferable, royalty-free, and worldwide license to use, download, modify, and distribute
+   OpenRPG, OpenVTT, or OpenDND, and any derivative or modified work, in both source code and
+   binary form, subject to the following conditions:
+
+   a. You may not lease, sell, or commercially exploit OpenRPG, OpenVTT, or OpenDND or its license, 
+      or any derivative or modified work, for direct or indirect financial gain or commercial purposes 
+      without first obtaining written permission from Us; and
+
+   b. You must cause any modified files to carry prominent notices
+      stating that You changed the files; and
+      
+   c. You must retain, in the Source form of any Derivative Works
+      that You distribute, all copyright, patent, trademark, and
+      attribution notices from the Source form of the Work,
+      excluding those notices that do not pertain to any part of
+      the Derivative Works; and
+
+3. Contribution.
+   Contributors are expected to respect third-party intellectual property rights and to only 
+   contribute content that they have the legal right believes that their rights are being infringed, 
+   they may request for the infringing content to be removed at any time.
+
+4. Content Ownership.
+   If you provide content as a User you own your work and may charge for it in any way you see fit. 
+   However, you acknowledge that other licenses may apply and may restrict this, given the contribution
+   nature of the software.
+
+5. Changes.
+   This license is a living document and might change at any time.
+
+6. Contact.
+   If you have any questions about this license or wish to obtain written permission for commercial use, 
+   please contact Us at the address listed on the OpenRPG, OpenVTT, or OpenDND websites.
+
+7. Intellectual Property.
+   You acknowledge and agree that OpenRPG, OpenVTT, and OpenDND are open source projects and that any 
+   contributions made to the project, including but not limited to code, documentation, and other forms 
+   of content, may be used, modified, and distributed by Us and other contributors in accordance with the 
+   open source license applicable to the project. Any contributions made by you to OpenRPG, OpenVTT, or 
+   OpenDND must be made under an open source license that is compatible with the license applicable to 
+   the project. By contributing to OpenRPG, OpenVTT, or OpenDND, you represent and warrant that you have 
+   the right to make the contribution and that it does not infringe on any intellectual property rights 
+   of any third party.
+
+8. General Terms.
+  
+   a. If any provision of this license is found to be unenforceable or invalid, that provision shall be 
+      limited or eliminated to the minimum extent necessary so that this license shall otherwise remain in 
+      full force and effect and enforceable.
+   
+   b. No waiver of any term of this license shall be deemed a further or continuing waiver of such term or 
+      any other term, and Our failure to assert any right or provision under this license shall not 
+      constitute a waiver of such right or provision.
+   
+   c. This license applies to all software, resources, and documentation provided with or by OpenRPG, 
+      OpenVTT, or OpenDND.
+
+9. Disclaimer of Warranty and Limitation of Liability.
+   OpenRPG, OpenVTT, and OpenDND is provided on an "AS IS" basis, without warranty of any kind, 
+   including without limitation the warranties of merchantability, fitness for a particular purpose, 
+   and non-infringement. In no event shall the authors or copyright holders be liable for any claim, 
+   damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, 
+   out of, or in connection with OpenRPG, OpenVTT, and OpenDND, or the use or other dealings in the 
+   software. You agree to indemnify, defend, and hold harmless Us, Our affiliates, and their respective
+   directors, officers, employees, and agents, from and against any and all claims, actions, demands, 
+   liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising 
+   from or related to your use of OpenRPG, OpenVTT, and OpenDND.
