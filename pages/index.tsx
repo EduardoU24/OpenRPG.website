@@ -87,34 +87,26 @@ export default function Home() {
 
 const features = [
   {
-    title: "Convenience first",
+    title: "Feature 1",
     description:
-      "Built by veteran players and dungeon masters for players and dungeons masters.",
+      "TBD",
     demo: <WebVitals />,
   },
   {
-    title: "One-click Deploy",
+    title: "Feature 2",
     description:
-      "Jumpstart your next project by deploying Precedent to [Vercel](https://vercel.com/) in one click.",
+      "TBD",
     demo: (
       <a>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://vercel.com/button"
-          alt="Deploy with Vercel"
-          width={120}
-        />
       </a>
     ),
   },
   {
-    title: "Built-in Auth + Database",
+    title: "Feature 3",
     description:
-      "Precedent comes with authentication and database via [Auth.js](https://authjs.dev/) + [Prisma](https://prisma.io/)",
+      "TBD",
     demo: (
       <div className="flex items-center justify-center space-x-20">
-        <Image alt="Auth.js logo" src="/authjs.webp" width={50} height={50} />
-        <Image alt="Prisma logo" src="/prisma.svg" width={50} height={50} />
       </div>
     ),
   },

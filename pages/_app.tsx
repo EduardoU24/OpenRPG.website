@@ -2,8 +2,8 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { Provider as RWBProvider } from "react-wrap-balancer";
-import { Roboto_Condensed } from "@next/font/google";
-import localFont from "@next/font/local";
+import { Roboto_Condensed } from "next/font/google";
+import localFont from "next/font/local";
 
 const robotoCondensed = Roboto_Condensed({
   variable: "--font-body",
