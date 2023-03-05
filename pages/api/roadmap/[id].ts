@@ -4,7 +4,7 @@ export const IssueRequest = async  function(req: NextApiRequest, res: NextApiRes
 {
   const { id } = req.query
   const auth = Buffer.from(process.env.ATTLASIAN_EMAIL + ':' + process.env.ATTLASIAN_API_KEY).toString('base64')
-  const apiUrl = `${process.env.ATTLASIAN_URL}/rest/api/3/issue/${id}`
+  const apiUrl = `${process.env.ATTLASIAN_URL}/rest/api/2/issue/${id}`
 
   try 
   {
@@ -38,9 +38,28 @@ function parseEpic(issue: any)
     title: issue.fields.summary,
     description: issue.fields.description || '',
     priority: issue.fields.priority.id,
-    last_updated: issue.fields.updated,
+    priority_icon: issue.fields.priority.iconUrl, 
+    last_updated: (new Date(issue.fields.updated)).toLocaleString(),
     status: issue.fields.status.name
   }
 }
+
+function parseDescription(description: any): string {
+  if (!description || !description.content) {
+    return '';
+  }
+
+  let parsedDescription = '';
+  description.content.forEach((element: any) => {
+    if (element.type === 'text') {
+      parsedDescription += element.text;
+    } else if (element.type === 'hardBreak') {
+      parsedDescription += '\n';
+    }
+  });
+
+  return parsedDescription;
+}
+
 
 export default IssueRequest

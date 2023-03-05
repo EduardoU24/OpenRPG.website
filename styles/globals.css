@@ -1,46 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("./markdown.css");
 
 @layer base {
-    ::selection {
-        background: #240021;
-        @apply text-white drop-shadow-txt4;
-    }
-    html {
-        @apply font-default text-light-1 bg-dark-2;
-    }
+  ::selection {
+    background: #240021;
+    @apply text-white drop-shadow-txt4;
+  }
+  html {
+    @apply bg-dark-2 font-default text-light-1;
+  }
 
-    body {
-        @apply relative min-h-min;
-    }
+  body {
+    @apply relative min-h-min;
+  }
 
-    a {
-        @apply duration-150;
-    }
+  a {
+    @apply duration-150;
+  }
 
-    a:hover {
-        @apply underline text-zinc-500;
-    }
+  a:hover {
+    @apply text-zinc-500 underline;
+  }
+
+  h1 {
+    @apply border-b border-gray-700 pb-1 text-4xl;
+  }
+
+  h2 {
+    @apply border-b border-gray-700 pb-1 text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-lg;
+  }
+
+  h6 {
+    @apply text-base;
+  }
+}
+
+.roadmap-column {
+  width: calc(100% / var(--columns));
 }
 
 :root {
-    --color-dark-1: #090809;
-    --color-dark-2: #141414;
-    --color-dark-3: #100412;
-    --color-dark-4: #090809;
-    --color-dark-5: #090809;
-    --color-dark-6: #090809;
-    --color-light-1: #e8e8e8;
-    --color-light-2: #f1f1f1;
-    --color-light-3: #090809;
-    --color-light-4: #090809;
-    --color-light-5: #090809;
-    --color-light-6: #090809;
+  --color-dark-1: #090809;
+  --color-dark-2: #141414;
+  --color-dark-3: #100412;
+  --color-dark-4: #090809;
+  --color-dark-5: #090809;
+  --color-dark-6: #090809;
+  --color-light-1: #e8e8e8;
+  --color-light-2: #f1f1f1;
+  --color-light-3: #090809;
+  --color-light-4: #090809;
+  --color-light-5: #090809;
+  --color-light-6: #090809;
 
-    --color-primary: #E40712;
-    --color-secondary: #8B4BCC;
-    --color-tertiary: #F05523;
-    --color-quaternary: #1C9AEF;
-    --color-quineary: #C41A1F;
+  --color-primary: #e40712;
+  --color-secondary: #8b4bcc;
+  --color-tertiary: #f05523;
+  --color-quaternary: #1c9aef;
+  --color-quineary: #c41a1f;
 }

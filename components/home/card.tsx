@@ -22,26 +22,7 @@ export default function Card({
         </h2>
         <div className="prose-sm -mt-2 leading-normal text-gray-200 w-3/4 mx-auto">
           <Balancer>
-            <ReactMarkdown
-              components={{
-                a: ({ node, ...props }) => (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    {...props}
-                    className="font-medium text-gray-500 text-bold transition-colors"
-                  />
-                ),
-                code: ({ node, ...props }) => (
-                  <code
-                    {...props}
-                    // @ts-ignore (to fix "Received `true` for a non-boolean attribute `inline`." warning)
-                    inline="true"
-                    className="rounded-sm bg-zinc-700 px-1.5 py-1 font-mono text-gray-200"
-                  />
-                ),
-              }}
-            >
+            <ReactMarkdown>
               {description}
             </ReactMarkdown>
           </Balancer>

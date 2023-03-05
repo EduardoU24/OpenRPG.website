@@ -26,17 +26,18 @@ export default function Home() {
         }}
       >
         <motion.h1
-          className="py-4 text-5xl font-bold tracking-tight text-center font-display text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white sm:text-8xl"
+          className="bg-gradient-to-t from-zinc-100/50 to-white bg-clip-text py-4 text-center font-display text-5xl font-bold tracking-tight text-transparent sm:text-8xl"
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
           OpenRPG
         </motion.h1>
         <motion.p
-          className="tracking-tight text-center font-display text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/80 to-white font-bold text-3xl uppercase drop-shadow-txt2"
+          className="bg-gradient-to-t from-zinc-100/80 to-white bg-clip-text text-center font-display text-3xl font-bold uppercase tracking-tight text-transparent drop-shadow-txt2"
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
-          an opinionated set of <span className="text-red-600 drop-shadow-txt2">free</span> tools
-          to play TTRPGs
+          an opinionated set of{" "}
+          <span className="text-red-600 drop-shadow-txt2">free</span> tools to
+          play TTRPGs
         </motion.p>
         <motion.div
           className="mx-auto mt-6 flex items-center justify-center space-x-5"
@@ -87,26 +88,39 @@ export default function Home() {
 
 const features = [
   {
-    title: "Feature 1",
+    title: "100% Free and Open Source",
     description:
-      "TBD",
+      "A completely set of free tools to play TTRPGs, we make these tools to play, because we love the game.\n\n[Get the code](https://github.com/OpenRPGApps/OpenRPG.client)\n\n",
     demo: <WebVitals />,
   },
   {
-    title: "Feature 2",
+    title: "Features",
     description:
-      "TBD",
+      "Checkout the complete list of features on our [ROADMAP](/roadmap).\n\nJoin our [Community Discord](https://discord.gg/vCgf4K5HMR) and suggest more.",
     demo: (
-      <a>
-      </a>
+      <div className="flex items-center justify-center space-x-20">
+        <Image
+          src={"/anvil_icon.png"}
+          alt="Features"
+          width={140}
+          height={140}
+        />
+      </div>
     ),
   },
   {
-    title: "Feature 3",
+    title: "Soon ™",
     description:
-      "TBD",
+      "Aimed towards playing on today standards, in house or streaming when we can't gather. Soon available on Steam, PC/MAC, iOS and Android, do you know Unity? [Build your own version](https://github.com/OpenRPGApps/OpenRPG.client).",
     demo: (
       <div className="flex items-center justify-center space-x-20">
+        <Image
+          src={"/soon_icon.png"}
+          alt="Features"
+          width={140}
+          height={140}
+          className="rounded-full border border-black"
+        />
       </div>
     ),
   },

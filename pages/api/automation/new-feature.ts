@@ -12,8 +12,7 @@ export const NewFeatureAutomation = async function (req: NextApiRequest, res: Ne
       status: req.body.fields.status.name
   }
 
-  const shitmemes = [
-      //"https://media.tenor.com/T9aC47YJAlwAAAAC/its-happening.gif",
+  const baitMemes = [
       "https://media.discordapp.net/attachments/1081406734880489553/1081406875637121144/image.png",
       "https://media.discordapp.net/attachments/1081406734880489553/1081406857450618890/image.png",
       "https://media.discordapp.net/attachments/1081406734880489553/1081406837468958741/image.png",
@@ -24,10 +23,10 @@ export const NewFeatureAutomation = async function (req: NextApiRequest, res: Ne
       "https://media.discordapp.net/attachments/1081406734880489553/1081408340325834792/image.png",
       "https://media.discordapp.net/attachments/1081406734880489553/1081408644953948180/image.png",
   ];
-  let selectedShitMeme = shitmemes[Math.floor(Math.random() * shitmemes.length)];
+  let selectedBaitMeme = baitMemes[Math.floor(Math.random() * baitMemes.length)];
 
   const template = {
-    "content": "New Feature Greenlight\n\nA new feature for the OpenRPG Client has been greenlit and is now In Development.\n__",
+    "content": "\nA new feature for the OpenRPG Client (ORC) has been greenlit and is now In Development.\n__",
     "embeds": [
       {
         "title": `[${issue.id}] ${issue.title}`,
@@ -48,7 +47,7 @@ export const NewFeatureAutomation = async function (req: NextApiRequest, res: Ne
           "name": "OpenRPG Client Feature"
         },
         "image": {
-          "url": selectedShitMeme
+          "url": selectedBaitMeme
         }
       }
     ],
