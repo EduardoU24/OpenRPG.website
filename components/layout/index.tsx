@@ -62,10 +62,6 @@ export default function Layout({
             <Link href="https://eduardo.cat">
               Eduardo.cat
             </Link>
-            {" "}and{" "}
-            <Link href="https://github.com/OpenRPGApps/OpenRPG.client/graphs/contributors">
-              many others{" "}
-            </Link>
           </p>
         </div>
       </footer>
