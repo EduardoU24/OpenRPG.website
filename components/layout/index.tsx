@@ -51,18 +51,16 @@ export default function Layout({
         </div>
       </header>
       <div className="absolute w-full h-screen top-0 bg-top bg-cover -z-40" style={topHeader}></div>
-      <main className="flex w-full flex-col items-center justify-center py-32">
+      <main className="flex w-full flex-col items-center justify-center pb-32 pt-24 min-h-screen">
         {children}
       </main>
       <div className="absolute w-full h-screen bottom-0 bg-bottom bg-cover -z-40" style={bottomHeader}></div>
-      <footer className="bottom-0 border-t border-zinc-900/90 bg-zinc-900/80">
+      <footer className="absolute w-full bottom-0 border-t border-zinc-900/90 bg-zinc-900/80">
         <div className="px-6 py-12 mx-auto text-xs text-center text-white/90 max-w-7xl lg:px-8">
-          <p>
-            Built with 💜 by{" "}
-            <Link href="https://eduardo.cat">
-              Eduardo.cat
-            </Link>
-          </p>
+          Built with 💜 by{" "}
+          <Link href="https://eduardo.cat">
+            Eduardo.cat
+          </Link>
         </div>
       </footer>
     </>
