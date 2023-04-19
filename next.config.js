@@ -14,12 +14,12 @@ const nextConfig = {
     return [
       {
         source: "/tos",
-        destination: "https://github.com/OpenRPGApps/OpenRPG.client/blob/main/LICENSE",
+        destination: "https://github.com/OpenDNDApps/OpenRPG.client/blob/main/LICENSE",
         permanent: false,
       },
       {
         source: "/github",
-        destination: "https://github.com/OpenRPGApps",
+        destination: "https://github.com/OpenDNDApps",
         permanent: false,
       },
     ];
