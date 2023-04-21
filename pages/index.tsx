@@ -45,7 +45,7 @@ export default function Home() {
         >
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"
-            href="https://github.com/OpenRPGApps"
+            href="https://github.com/OpenDNDApps"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -90,7 +90,7 @@ const features = [
   {
     title: "100% Free and Open Source",
     description:
-      "A completely set of free tools to play TTRPGs, we make these tools to play, because we love the game.\n\n[Get the code](https://github.com/OpenRPGApps/OpenRPG.client)\n\n",
+      "A completely set of free tools to play TTRPGs, we make these tools to play, because we love the game.\n\n[Get the code](https://github.com/OpenDNDApps/OpenRPG.client)\n\n",
     demo: <WebVitals />,
   },
   {
@@ -111,7 +111,7 @@ const features = [
   {
     title: "Soon ™",
     description:
-      "Aimed towards playing on today standards, in house or streaming when we can't gather. Soon available on Steam, PC/MAC, iOS and Android, do you know Unity? [Build your own version](https://github.com/OpenRPGApps/OpenRPG.client).",
+      "Aimed towards playing on today standards, in house or streaming when we can't gather. Soon available on Steam, PC/MAC, iOS and Android, do you know Unity? [Build your own version](https://github.com/OpenDNDApps/OpenRPG.client).",
     demo: (
       <div className="flex items-center justify-center space-x-20">
         <Image
