@@ -1,29 +1,20 @@
-<a href="https://openrpg.app">
-  <img alt="OpenRPG – Free tools to play Tabletop RPGs" src="https://openrpg.app/logo.png">
-  <h1 align="center">OpenRPG</h1>
-</a>
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-<p align="center">
-  Free tools to play Tabletop RPGs
-</p>
+# Run and deploy your AI Studio app
 
-<p align="center">
-  <a href="https://twitter.com/eduardou24">
-    <img src="https://img.shields.io/twitter/follow/eduardou24?style=flat&label=EduardoU24&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
-  </a>
-</p>
+This contains everything you need to run your app locally.
 
-<br/>
+View your app in AI Studio: https://ai.studio/apps/drive/1s644cjd-XWX8bfjWeBQhZ8Cs-BuB2ziW
 
-## Features
+## Run Locally
 
-You can check the updated list on the [Roadmap](https://openrpg.app/roadmap) website.
+**Prerequisites:**  Node.js
 
-- `F1` – TBD
-- `F1` – TBD
-- `F1` – TBD
-- `F1` – TBD
-- `F1` – TBD
-- `F1` – TBD
-- `F1` – TBD
 
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
